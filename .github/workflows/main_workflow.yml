@@ -8,7 +8,7 @@ on:
 
 jobs: 
   trigger_workflow:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Echo Workflow name
         shell: bash
