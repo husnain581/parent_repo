@@ -1,7 +1,6 @@
 name: 'Workflow of Parent REPO'
 
 on:
-  workflow_dispatch:
   push:
     branches:
       - main
